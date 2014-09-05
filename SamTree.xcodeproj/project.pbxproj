@@ -21,6 +21,7 @@
 		2226358C19B99C6D00789527 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2226356E19B99C6D00789527 /* UIKit.framework */; };
 		2226359419B99C6D00789527 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2226359219B99C6D00789527 /* InfoPlist.strings */; };
 		2226359619B99C6D00789527 /* SamTreeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2226359519B99C6D00789527 /* SamTreeTests.m */; };
+		222635A119B99C9900789527 /* SamTreeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 222635A019B99C9900789527 /* SamTreeView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		2226359119B99C6D00789527 /* SamTreeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SamTreeTests-Info.plist"; sourceTree = "<group>"; };
 		2226359319B99C6D00789527 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2226359519B99C6D00789527 /* SamTreeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SamTreeTests.m; sourceTree = "<group>"; };
+		2226359F19B99C9900789527 /* SamTreeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SamTreeView.h; sourceTree = "<group>"; };
+		222635A019B99C9900789527 /* SamTreeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SamTreeView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				2226357C19B99C6D00789527 /* Main.storyboard */,
 				2226357F19B99C6D00789527 /* SamViewController.h */,
 				2226358019B99C6D00789527 /* SamViewController.m */,
+				2226359F19B99C9900789527 /* SamTreeView.h */,
+				222635A019B99C9900789527 /* SamTreeView.m */,
 				2226358219B99C6D00789527 /* Images.xcassets */,
 				2226357119B99C6D00789527 /* Supporting Files */,
 			);
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				222635A119B99C9900789527 /* SamTreeView.m in Sources */,
 				2226357B19B99C6D00789527 /* SamAppDelegate.m in Sources */,
 				2226358119B99C6D00789527 /* SamViewController.m in Sources */,
 				2226357719B99C6D00789527 /* main.m in Sources */,
