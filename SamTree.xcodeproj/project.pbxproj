@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2226356B19B99C6D00789527 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2226356A19B99C6D00789527 /* Foundation.framework */; };
+		2226356D19B99C6D00789527 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2226356C19B99C6D00789527 /* CoreGraphics.framework */; };
+		2226356F19B99C6D00789527 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2226356E19B99C6D00789527 /* UIKit.framework */; };
+		2226357519B99C6D00789527 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2226357319B99C6D00789527 /* InfoPlist.strings */; };
+		2226357719B99C6D00789527 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2226357619B99C6D00789527 /* main.m */; };
+		2226357B19B99C6D00789527 /* SamAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2226357A19B99C6D00789527 /* SamAppDelegate.m */; };
+		2226357E19B99C6D00789527 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2226357C19B99C6D00789527 /* Main.storyboard */; };
+		2226358119B99C6D00789527 /* SamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2226358019B99C6D00789527 /* SamViewController.m */; };
+		2226358319B99C6D00789527 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2226358219B99C6D00789527 /* Images.xcassets */; };
+		2226358A19B99C6D00789527 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2226358919B99C6D00789527 /* XCTest.framework */; };
+		2226358B19B99C6D00789527 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2226356A19B99C6D00789527 /* Foundation.framework */; };
+		2226358C19B99C6D00789527 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2226356E19B99C6D00789527 /* UIKit.framework */; };
+		2226359419B99C6D00789527 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2226359219B99C6D00789527 /* InfoPlist.strings */; };
+		2226359619B99C6D00789527 /* SamTreeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2226359519B99C6D00789527 /* SamTreeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2226358D19B99C6D00789527 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2226355F19B99C6D00789527 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2226356619B99C6D00789527;
+			remoteInfo = SamTree;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2226356719B99C6D00789527 /* SamTree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SamTree.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2226356A19B99C6D00789527 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2226356C19B99C6D00789527 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2226356E19B99C6D00789527 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2226357219B99C6D00789527 /* SamTree-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SamTree-Info.plist"; sourceTree = "<group>"; };
+		2226357419B99C6D00789527 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2226357619B99C6D00789527 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2226357819B99C6D00789527 /* SamTree-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SamTree-Prefix.pch"; sourceTree = "<group>"; };
+		2226357919B99C6D00789527 /* SamAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SamAppDelegate.h; sourceTree = "<group>"; };
+		2226357A19B99C6D00789527 /* SamAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SamAppDelegate.m; sourceTree = "<group>"; };
+		2226357D19B99C6D00789527 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2226357F19B99C6D00789527 /* SamViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SamViewController.h; sourceTree = "<group>"; };
+		2226358019B99C6D00789527 /* SamViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SamViewController.m; sourceTree = "<group>"; };
+		2226358219B99C6D00789527 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2226358819B99C6D00789527 /* SamTreeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SamTreeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2226358919B99C6D00789527 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		2226359119B99C6D00789527 /* SamTreeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SamTreeTests-Info.plist"; sourceTree = "<group>"; };
+		2226359319B99C6D00789527 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2226359519B99C6D00789527 /* SamTreeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SamTreeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2226356419B99C6D00789527 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2226356D19B99C6D00789527 /* CoreGraphics.framework in Frameworks */,
+				2226356F19B99C6D00789527 /* UIKit.framework in Frameworks */,
+				2226356B19B99C6D00789527 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2226358519B99C6D00789527 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2226358A19B99C6D00789527 /* XCTest.framework in Frameworks */,
+				2226358C19B99C6D00789527 /* UIKit.framework in Frameworks */,
+				2226358B19B99C6D00789527 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2226355E19B99C6D00789527 = {
+			isa = PBXGroup;
+			children = (
+				2226357019B99C6D00789527 /* SamTree */,
+				2226358F19B99C6D00789527 /* SamTreeTests */,
+				2226356919B99C6D00789527 /* Frameworks */,
+				2226356819B99C6D00789527 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2226356819B99C6D00789527 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2226356719B99C6D00789527 /* SamTree.app */,
+				2226358819B99C6D00789527 /* SamTreeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2226356919B99C6D00789527 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2226356A19B99C6D00789527 /* Foundation.framework */,
+				2226356C19B99C6D00789527 /* CoreGraphics.framework */,
+				2226356E19B99C6D00789527 /* UIKit.framework */,
+				2226358919B99C6D00789527 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2226357019B99C6D00789527 /* SamTree */ = {
+			isa = PBXGroup;
+			children = (
+				2226357919B99C6D00789527 /* SamAppDelegate.h */,
+				2226357A19B99C6D00789527 /* SamAppDelegate.m */,
+				2226357C19B99C6D00789527 /* Main.storyboard */,
+				2226357F19B99C6D00789527 /* SamViewController.h */,
+				2226358019B99C6D00789527 /* SamViewController.m */,
+				2226358219B99C6D00789527 /* Images.xcassets */,
+				2226357119B99C6D00789527 /* Supporting Files */,
+			);
+			path = SamTree;
+			sourceTree = "<group>";
+		};
+		2226357119B99C6D00789527 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2226357219B99C6D00789527 /* SamTree-Info.plist */,
+				2226357319B99C6D00789527 /* InfoPlist.strings */,
+				2226357619B99C6D00789527 /* main.m */,
+				2226357819B99C6D00789527 /* SamTree-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2226358F19B99C6D00789527 /* SamTreeTests */ = {
+			isa = PBXGroup;
+			children = (
+				2226359519B99C6D00789527 /* SamTreeTests.m */,
+				2226359019B99C6D00789527 /* Supporting Files */,
+			);
+			path = SamTreeTests;
+			sourceTree = "<group>";
+		};
+		2226359019B99C6D00789527 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2226359119B99C6D00789527 /* SamTreeTests-Info.plist */,
+				2226359219B99C6D00789527 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2226356619B99C6D00789527 /* SamTree */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2226359919B99C6D00789527 /* Build configuration list for PBXNativeTarget "SamTree" */;
+			buildPhases = (
+				2226356319B99C6D00789527 /* Sources */,
+				2226356419B99C6D00789527 /* Frameworks */,
+				2226356519B99C6D00789527 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SamTree;
+			productName = SamTree;
+			productReference = 2226356719B99C6D00789527 /* SamTree.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2226358719B99C6D00789527 /* SamTreeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2226359C19B99C6D00789527 /* Build configuration list for PBXNativeTarget "SamTreeTests" */;
+			buildPhases = (
+				2226358419B99C6D00789527 /* Sources */,
+				2226358519B99C6D00789527 /* Frameworks */,
+				2226358619B99C6D00789527 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2226358E19B99C6D00789527 /* PBXTargetDependency */,
+			);
+			name = SamTreeTests;
+			productName = SamTreeTests;
+			productReference = 2226358819B99C6D00789527 /* SamTreeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2226355F19B99C6D00789527 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Sam;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Hello;
+				TargetAttributes = {
+					2226358719B99C6D00789527 = {
+						TestTargetID = 2226356619B99C6D00789527;
+					};
+				};
+			};
+			buildConfigurationList = 2226356219B99C6D00789527 /* Build configuration list for PBXProject "SamTree" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2226355E19B99C6D00789527;
+			productRefGroup = 2226356819B99C6D00789527 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2226356619B99C6D00789527 /* SamTree */,
+				2226358719B99C6D00789527 /* SamTreeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2226356519B99C6D00789527 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2226358319B99C6D00789527 /* Images.xcassets in Resources */,
+				2226357519B99C6D00789527 /* InfoPlist.strings in Resources */,
+				2226357E19B99C6D00789527 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2226358619B99C6D00789527 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2226359419B99C6D00789527 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2226356319B99C6D00789527 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2226357B19B99C6D00789527 /* SamAppDelegate.m in Sources */,
+				2226358119B99C6D00789527 /* SamViewController.m in Sources */,
+				2226357719B99C6D00789527 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2226358419B99C6D00789527 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2226359619B99C6D00789527 /* SamTreeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2226358E19B99C6D00789527 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2226356619B99C6D00789527 /* SamTree */;
+			targetProxy = 2226358D19B99C6D00789527 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2226357319B99C6D00789527 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2226357419B99C6D00789527 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2226357C19B99C6D00789527 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2226357D19B99C6D00789527 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2226359219B99C6D00789527 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2226359319B99C6D00789527 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2226359719B99C6D00789527 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2226359819B99C6D00789527 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2226359A19B99C6D00789527 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SamTree/SamTree-Prefix.pch";
+				INFOPLIST_FILE = "SamTree/SamTree-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2226359B19B99C6D00789527 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SamTree/SamTree-Prefix.pch";
+				INFOPLIST_FILE = "SamTree/SamTree-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2226359D19B99C6D00789527 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SamTree.app/SamTree";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SamTree/SamTree-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SamTreeTests/SamTreeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		2226359E19B99C6D00789527 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SamTree.app/SamTree";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SamTree/SamTree-Prefix.pch";
+				INFOPLIST_FILE = "SamTreeTests/SamTreeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2226356219B99C6D00789527 /* Build configuration list for PBXProject "SamTree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2226359719B99C6D00789527 /* Debug */,
+				2226359819B99C6D00789527 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2226359919B99C6D00789527 /* Build configuration list for PBXNativeTarget "SamTree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2226359A19B99C6D00789527 /* Debug */,
+				2226359B19B99C6D00789527 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2226359C19B99C6D00789527 /* Build configuration list for PBXNativeTarget "SamTreeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2226359D19B99C6D00789527 /* Debug */,
+				2226359E19B99C6D00789527 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2226355F19B99C6D00789527 /* Project object */;
+}
